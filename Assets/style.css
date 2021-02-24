@@ -1,0 +1,48 @@
+h1 {
+    font-size: 600%; 
+    color:rgb(141,203,202);
+    padding: 50px;
+    outline: white;
+    outline-style: solid;
+    outline-width: 10px;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images.pexels.com/photos/931158/pexels-photo-931158.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-position: 50px;
+}
+
+h2 {
+    color: rgb(253,174,133);
+    font-size: 300%;
+}
+
+.about-me {
+    width: 700px;
+    height: 600px;
+    border: salmon;
+    border-style: solid;
+    background-color: rgb(218,233,228);
+}
+
+.about-me p {
+    color:rgb(60,46,61)
+}
+.container-fluid {
+    background-color: rgb(253,174,133);
+}
+
+
+
+
+
+
+
+/* rgb(141,203,202)
+rgb(236,199,191)
+rbg(253,174,133)
+rgb(60,46,61)
+rgb(218,233,228) */
