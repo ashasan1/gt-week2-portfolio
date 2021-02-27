@@ -24,7 +24,9 @@ h2 {
     color: rgb(253,174,133);
     font-size: 300%;
     background-color:rgb(60,46,61);
-    margin: 0%;
+    font-family: 'Gravitas One', cursive;
+    text-align: center;
+    padding: 10px;
 }
 
 .container-fluid {
@@ -64,18 +66,76 @@ h2 {
 .profile-pic {
     height:50% ;
     width:auto ;
+    margin: 10px;
+    border-style: solid;
+    border-color: rgb(60,46,61);
+    border-width: 10px;
+
+}
+
+.contact-me p {
+    font-size: 150%;
+    font-family: 'Noto Sans', sans-serif;
+    
 }
 .work {
     width: 1000px;
-    height:1200px;
+    height:1600px;
     border-color: tomato;
+    background-color:rgb(218,233,228);
     border-style: solid;
     position: absolute;
     top: 1200;
 }
 
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7 {
+    margin: 20px;
+    float:left;
 
+}
 
+@media screen and (max-width: 1160px) {
+    .contact-me {
+        position: relative;
+        top: 1700px;
+        left:0px;
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .about-me {
+        position: relative;
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .work {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .about-me {
+        width: 650px
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .work {
+        width: 650px;
+        height:4000px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .contact-me {
+        position: relative;
+        top: 4200px;
+        width: 650px;
+    }
+}
 
 /* rgb(141,203,202)
 rgb(236,199,191)
