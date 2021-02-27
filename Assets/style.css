@@ -1,3 +1,14 @@
+/* rgb(141,203,202)
+rgb(236,199,191)
+rgb(253,174,133)
+rgb(60,46,61)
+rgb(218,233,228) */
+
+
+body {
+    background-color:rgb(236,199,191)
+}
+
 
 h1 {
     font-size: 600%; 
@@ -35,8 +46,8 @@ h2 {
 
 .about-me {
     width: 1000px;
-    height: 600px;
-    border: salmon;
+    height: 500px;
+    border: rgb(48, 185, 183);
     border-style: solid;
     background-color: rgb(218,233,228);
     padding: 10px;
@@ -49,6 +60,16 @@ h2 {
     font-family: 'Noto Sans', sans-serif;
     font-size: 120%;
     margin-top: 20px;
+    width: 450px;
+}
+
+#about-me-office {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 460px;
+    bottom: 100px;
+    display: block;
 }
 
 .contact-me {
@@ -56,7 +77,7 @@ h2 {
     height: 900px;
     padding: 10px;
     border-style: solid;
-    border-color: tomato;
+    border-color:rgb(48, 185, 183);
     background-color:rgb(218,233,228);
     position: absolute;
     left: 1050px;
@@ -77,15 +98,18 @@ h2 {
     font-size: 150%;
     font-family: 'Noto Sans', sans-serif;
     
+    
 }
 .work {
     width: 1000px;
     height:1600px;
-    border-color: tomato;
+    border-color:rgb(48, 185, 183);
     background-color:rgb(218,233,228);
     border-style: solid;
     position: absolute;
-    top: 1200;
+    left:0px
+    
+    
 }
 
 .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7 {
@@ -96,8 +120,8 @@ h2 {
 
 @media screen and (max-width: 1160px) {
     .contact-me {
-        position: relative;
-        top: 1700px;
+        position: absolute;
+        top: 2150px;
         left:0px;
         width: 1000px;
     }
@@ -113,30 +137,42 @@ h2 {
 @media screen and (max-width: 1160px) {
     .work {
         min-width: 400px;
+        position: absolute;
+        left: 0px;
     }
 }
 
 @media screen and (max-width: 685px) {
     .about-me {
-        width: 650px
+        width: 645px
     }
 }
 
 @media screen and (max-width: 685px) {
     .work {
-        width: 650px;
+        width: 645px;
         height:4000px;
+        position: absolute;
+        top: 520px;
+        left: 0;
     }
 }
 
 @media screen and (max-width: 685px) {
     .contact-me {
-        position: relative;
-        top: 4200px;
-        width: 650px;
+        position: absolute;
+        top: 4550px;
+        width: 645px;
+        left: 0px;
     }
 }
 
+@media screen and (max-width: 685px) {
+    #about-me-office {
+        display: none;
+
+    }
+}
 /* rgb(141,203,202)
 rgb(236,199,191)
 rbg(253,174,133)
