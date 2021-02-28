@@ -65,11 +65,12 @@ h2 {
 }
 
 .about-me-office {
+    display: inline;
     width: 400px;
     height: 255px;
     position: absolute;
     left: 490px;
-    bottom: 90px;
+    bottom: 60px;
     border-color: rgb(253,174,133);
     border-style: solid;
     border-width: 5px;
@@ -138,7 +139,7 @@ h2 {
 @media screen and (max-width: 1160px) {
     .contact-me {
         position: absolute;
-        top: 2150px;
+        top: 2500px;
         left:0px;
         width: 1000px;
     }
@@ -156,7 +157,7 @@ h2 {
         min-width: 400px;
         position: absolute;
         left: 0px;
-        top: 525px;
+        top: 870px;
     }
 }
 
@@ -171,7 +172,7 @@ h2 {
         width: 645px;
         height:4000px;
         position: absolute;
-        top: 520px;
+        top: 870px;
         left: 0;
     }
 }
@@ -179,7 +180,7 @@ h2 {
 @media screen and (max-width: 685px) {
     .contact-me {
         position: absolute;
-        top: 4550px;
+        top: 4900px;
         width: 645px;
         left: 0px;
     }
