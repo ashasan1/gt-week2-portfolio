@@ -38,7 +38,7 @@ THEN I am presented with the developer's name, a recent photo, and links to sect
 THEN the UI scrolls to the corresponding section
 
 
-WHEN I click on the link to the section about their work
+- complete- WHEN I click on the link to the section about their work
 THEN the UI scrolls to a section with titled images of the developer's applications
 
 
